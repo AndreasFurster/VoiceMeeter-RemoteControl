@@ -11,30 +11,30 @@ Config is located at `C:/VoiceMeeterRemoteControl/config.json`.
 ### Config.json
 ```json
 {
-  'host': '192.168.1.20',
-  'commands': [
+  "host": "192.168.1.20",
+  "commands": [
     {
-      'name: 'Mute',
-      'requests': [
-        { 'type': 'setVolume', 'value': -60, 'input': 'A1' },
-        { 'type': 'setVolume', 'value': -60, 'input': 'A2' },
-        { 'type': 'setVolume', 'value': -60, 'input': 'A3' }
+      "name: "Mute",
+      "requests": [
+        { "type": "setVolume", "value": -60, "input": "A1" },
+        { "type": "setVolume", "value": -60, "input": "A2" },
+        { "type": "setVolume", "value": -60, "input": "A3" }
       ]
     },
     {
-      'name: 'Lower volume',
-      'requests': [
-        { 'type': 'ajustVolume', 'value': -5, 'input': 'A1' },
-        { 'type': 'ajustVolume', 'value': -5, 'input': 'A2' },
-        { 'type': 'ajustVolume', 'value': -5, 'input': 'A3' }
+      "name: "Lower volume",
+      "requests": [
+        { "type": "ajustVolume", "value": -5, "input": "A1" },
+        { "type": "ajustVolume", "value": -5, "input": "A2" },
+        { "type": "ajustVolume", "value": -5, "input": "A3" }
       ]
     },
     {
-      'name: 'Play from my pc',
-      'requests': [
-        { 'type': 'setVolume', 'value': -60, 'input': 'A1' },
-        { 'type': 'setVolume', 'value': -60, 'input': 'A2' },
-        { 'type': 'setVolume', 'value': 0, 'input': 'A3' }
+      "name: "Play from my pc",
+      "requests": [
+        { "type": "setVolume", "value": -60, "input": "A1" },
+        { "type": "setVolume", "value": -60, "input": "A2" },
+        { "type": "setVolume", "value": 0, "input": "A3" }
       ]
     }
   ]
