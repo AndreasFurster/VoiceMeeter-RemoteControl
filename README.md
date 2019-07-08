@@ -14,7 +14,7 @@ Config is located at `C:/VoiceMeeterRemoteControl/config.json`.
   "host": "192.168.1.20",
   "commands": [
     {
-      "name: "Mute",
+      "name": "Mute",
       "requests": [
         { "type": "setVolume", "value": -60, "input": "A1" },
         { "type": "setVolume", "value": -60, "input": "A2" },
@@ -22,7 +22,7 @@ Config is located at `C:/VoiceMeeterRemoteControl/config.json`.
       ]
     },
     {
-      "name: "Lower volume",
+      "name": "Lower volume",
       "requests": [
         { "type": "ajustVolume", "value": -5, "input": "A1" },
         { "type": "ajustVolume", "value": -5, "input": "A2" },
@@ -30,7 +30,7 @@ Config is located at `C:/VoiceMeeterRemoteControl/config.json`.
       ]
     },
     {
-      "name: "Play from my pc",
+      "name": "Play from my pc",
       "requests": [
         { "type": "setVolume", "value": -60, "input": "A1" },
         { "type": "setVolume", "value": -60, "input": "A2" },
